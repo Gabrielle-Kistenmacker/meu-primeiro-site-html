@@ -1,0 +1,67 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5fbbf0f6;
+    color: #111111e1;
+    margin: 50px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #1b086e;
+    text-align: center;
+}
+
+h2 {
+    color: #0c0224;
+    margin-top: 30px;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid #1b0544;
+    padding-top: 18px;
+    text-align: center;
+    font-size: 14px;
+    color: #0c0c0cf1;
+    font-style: italic;
+}
+
+body > h1, h2, p, footer {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.imagem-tecnologia img {
+    width: 50%;           /* agora ocupa 50% da largura da tela */
+    max-width: 400px;     /* máximo de 400px */
+    border-radius: 15px;  
+}
+
+
+.imagem-tecnologia {
+    text-align: center;  /* centraliza o conteúdo da div */
+    margin: 20px 0;      /* espaço acima e abaixo */
+
+
+    }
+
+    .imagem-tecnologia img {
+        width: 50%;           /* ajusta o tamanho da imagem */
+        max-width: 400px;     /* não fica maior que 400px */
+        border-radius: 10px;  
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    display: inline-block; /* garante que respeite a centralização */
+}
+
